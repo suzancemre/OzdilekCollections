@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class UrunDetay extends BaseTest{
+public class UrunDetailPage extends BaseTest{
     @Step("Urun detay <bolum> sayfasında <kontrol> tıklayınca")
     public void urunDetay(String bolum,String kontrol) throws InterruptedException {
         Thread.sleep(1000);
